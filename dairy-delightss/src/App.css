@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Styling for Navbar */
+
+
+.nav-links {
+  display: flex;
+  justify-content: center; /* Centers the links */
+  list-style-type: none; /* Removes bullets */
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.items .item:hover {
+
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+#logotext {
+  font-family: "Caveat", serif;
+  font-weight: 700;
+  font-style: normal;
+  color:rgb(255, 255, 255);
+  float: left; /* Keeps logo aligned to the left */
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: large;
+}
+#logotext h3{
+  margin-bottom: 5px;
+}
+/* Styling for Tagline */
+#logot {
+  font-family: 'Caveat';
+}
+
+/* Styling for Navbar */
+.navbar {
+  background-color:goldenrod; /* Coral-like background color */
+  padding: 0.5em ; /* Space inside the navbar */
+  clear: both; /* Ensures navbar does not overlap with floated elements */
+}
+
+.nav-links {
+  justify-content: center; /* Centers the links */
+  list-style-type: none; /* Removes bullets */
+  margin: 0;
+  padding:0.5em;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin: 0 4em; /* Adds spacing between links */
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* White text for links */
+  font-size: 1.2em; /* Font size for links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+  margin-left: -10px;
+
+}
+
+.nav-links a:hover {
+  color:#274C77/* Light coral color on hover */
+}
+
+.hero-container {
+  margin-top: 1vh;
+  width: 100%;
+  
+}
+
+/* .items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+  /* gap: 2em; Space between images */
+  /* grid-auto-rows: minmax(200px, auto); Ensures consistent row heights */
+/* } */ */
+
+/* .item {
+  background-color: #f9f9f9;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+} */
+.items .item:hover {
+  transform: scale(1.05);
+}
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  
+}
+
+.item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.hero-header {
+  display: flex;               /* Flexbox layout for side-by-side alignment */
+  justify-content: space-between; /* Space between text and image content */
+  align-items: center;         /* Vertically align items in the center */
+  gap: 20px;                   /* Optional gap between the columns */
+  padding: 20px;               /* Optional padding for spacing */
+}
+
+.text-content,
+.image-content {
+                  /* Equal width for both text and image containers */
+  max-width: 50%; 
+  margin-top: -20px;             /* Limit width to 50% of the container */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;      /* Stack text elements vertically */
+  justify-content: center;     /* Vertically center text content */
+}
+
+.image-content img {
+  width: 100%;                 
+  height: auto;               
+}
+
+.text-content h1{
+     font-size:60px;
+     text-align: center;
+}
+.text-content h3{
+  text-align: center;
+  margin-top: -50px;
+}
+.main-content {
+  flex: 1;
+  overflow: auto;
+}
+.footer {
+  background-color: #274C77;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  bottom: 0;  
+}
+.social-icons a{
+  color: white;
+  padding: 5px;
+}
+
+.social-icons{
+  text-align: center;
+ 
+}
+.icons2 li{
+  list-style: none;
+}
+.icons2{
+text-align: center;
+}
+.icons3 li{
+  list-style: none;
+}
+.icons3{
+  text-align: center;
+}
+/* span{
+  font-family: "Satisfy", cursive;
+  font-style: normal;
+  color: brown;
+} */
+.social-icons p{
+  margin-left: 10px;
+}
+
+.search-input::placeholder{
+  color: white;
+}

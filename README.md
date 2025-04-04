@@ -44,7 +44,6 @@ This project will allow you to apply the React skills you've learned to build a 
   - The details should include the item details as well as the customer details.
 - The details should be persisted, and the customer should be acknowledged after the order is successfully placed.​
 
-
 ##### Task 3 – Design Login View
 
 - The user should be navigated to the login view if he attempts navigation to the order-requests view.
